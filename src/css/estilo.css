@@ -1,0 +1,165 @@
+/* LIMPAR FORMATACOES PADROES */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #7fa0ca;
+}
+
+
+/*** LAYOUT ****/
+
+#area-cabecalho {					/* DIV CABECALHO */
+	background-color: #0080f7;      /* COR DE FUNDO DA DIV */
+	padding: 15px ; 				/* AREA DE ESPACAMENTO */
+	text-align: center;				/* PARA CENTRALIZAR O TEXTO */
+}
+
+
+#area-logo, #area-menu {			/* ESPACAMENTO ENTRE AS LOGOS */
+	padding: 10px;					/* EM CIMA E EMBAIXO */
+
+}
+
+
+#area-principal {				    /* AREA DO CONTEUDO */
+	width: 920px;					/* LARGURA PADRAO PARA DISPOSITIVO MODERNO P/ RESOLUCAO DE 1024 */
+	margin: 0 auto;				    /* 0 SUP E INFERIOR E 10 PARA MARGENS LATERAIS/ AUTO:  CONTEUDO CENTRALIZADO AUTOMATICAMENTE */
+	padding: 15px;					/* ESPACO TANTO PARA AREA DE POSTAGEM QUANTO PARA AREA LATERAL */
+}
+
+
+#area-postagens {
+	width: 660px;
+	float:left;  /* PARA A AREA POSTAGENS FICAR DO LADO ESQUERDO  */
+}
+
+#area-lateral{
+	width: 240px;
+	float: right;  /* PARA A AREA LATERAL FICAR DO LADO DIREITO  */
+}
+
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;			/* ESPACAMENTO INFERIOR */
+	background: white;
+}
+
+.conteudo-lateral {
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.postagem-lateral {
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted #CCC;
+}
+
+#rodape {
+	clear: both; 		 /* REMOVER ELEMENTOS FLUTUANTES */
+	text-align: center;  /* CENTRALIZAR*/
+	padding: 15px;		/* ESPACAMENTO */
+	background: #CCC;
+
+}
+
+
+/*** FORMATACAO DO MEUNU ****/
+
+
+a {			  				    /*** REMOVENDO O UNDERLINE ****/	
+	text-decoration: none;		/*** PARA TODOS OS LINKS INDEPENDE DO ESTADO ****/
+
+}
+
+a:link, a:visited {      /*** QUERO QUE A COR PADRAO SEJA BRANCA ****/
+	color: #0094f7;	     /*** E QUANDO EU PASSAR O MOUSE EM CIMA O BACKGROUND FICA BRANCO E AI SIM A COR MUDA PRA LARANJA ****/
+} 
+
+
+a:hover {   		    				/*** QUERO QUE A COR PADRAO SEJA BRANCA ****/
+	text-decoration: underline;
+}
+
+
+#area-cabecalho a:link,#area-cabecalho  a:visited {      /*** QUERO QUE A COR PADRAO SEJA BRANCA ****/
+	color: #FFF;	    								 /*** E QUANDO EU PASSAR O MOUSE EM CIMA O BACKGROUND FICA BRANCO E AI SIM A COR MUDA PRA LARANJA ****/
+	padding: 8px 12px;   								/*** SUPERIOR E INFERIOR */
+
+} 
+
+
+#area-cabecalho a:hover {   		    				/*** QUERO QUE A COR PADRAO SEJA BRANCA ****/
+	color: #0080f7;
+	background: #FFF ; 									/* CUIDADO COM O ESPACAMENTO */
+	text-decoration: none;
+}
+
+
+/*** FORMATACOES GERAIS ****/
+
+h1{ 						        /* FORMATANDO O TITULO */
+	color:  #4e4e4e;
+	font-size: 2.5em;
+}
+
+h2{
+	color: #0080f7;
+
+}
+
+h3{
+	color: #0080f7;
+	background: #CCC;
+	padding: 5px;
+
+}
+
+.branco{ 						    /* TITULO COM DUAS CORES */
+	color: white;				    /*<h1>Tec<span class="branco">Blog</span></h1>*/
+}
+
+.data-postagem {
+	font-size: 0,8em;
+	border-bottom: 1px solid #CCC;
+	padding-bottom: 10px;			/*MARGEM*/
+	margin-bottom: 10px;
+	display: block;				   /*USADAO PARA DAR COMPORTAMENTO DE UM ELEMENTO DE BLOCO*/		
+}
+
+
+
+
+
+
+							  /*SELETORES: FAZER FORMATACAO DIFERENTE DEPENDENDO DO LUGAR QUE ESTA O LINK*/
+
+
+/*	border: 1px solid red;			/* VER A AREA COLOCADA  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

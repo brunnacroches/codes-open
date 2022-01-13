@@ -1,2 +1,2 @@
-# site-spotify
-site-spotify
+# tec-blog
+tec-blog
